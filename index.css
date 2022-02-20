@@ -19,11 +19,12 @@ body {
 }
 
 .container{
+    /*display: none;*/
     
     background: white;
     padding: 2.5em;
     /* text-align: center; */
-    position: relative;
+    /*position: relative;*/ /* mit position: relative ist der pfeil innerhalb des containers | ohne ist er unten am Bildschirmrand*/
     border-radius: 15px;
     width: 280px;
     margin: auto;
@@ -59,7 +60,7 @@ iframe{
 }
 
 img{
-
+    background: white;
     margin-top: 1em;
     border: none;
     padding: 10px 15px;
@@ -67,9 +68,9 @@ img{
     font-family: "cooper Black";
     border-radius: 10px;
     position: absolute;
-    right: .2em;
-    bottom: .2em;
-    width: 50px;
+    right: 1em;
+    bottom: 1em;
+    width: 3em;
     cursor: pointer;
 }
 
