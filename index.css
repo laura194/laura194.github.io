@@ -1,0 +1,75 @@
+:root{
+    --primary-color: rgba(172,20,172,1);
+    --secondary-color: rgba(220,67,132,1);
+    --third-color: rgba(255,100,100,1);
+}
+   
+html{
+    height: 100%;
+}
+
+
+body {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(172,20,172); 
+    background-image: linear-gradient(45deg, rgba(172,20,172,1) 0%, rgba(220,67,132,1) 50%, rgba(255,100,100,1) 100%);
+    font-family: "Cooper Black";
+}
+
+.container{
+    
+    background: white;
+    padding: 2.5em;
+    /* text-align: center; */
+    position: relative;
+    border-radius: 15px;
+    width: 280px;
+    margin: auto;
+    margin-top: 20em;
+}
+
+iframe{
+    width: 100%;
+    height: 929px;
+}
+
+
+
+.container label{
+    color: var(--third-color);
+    font-size: 24px;
+    
+}
+
+.container input{
+    border: 1.5px solid var(--third-color);
+    border-radius: 10px;
+    background: var(--third-color);
+    padding: .3em;
+    color: white;
+    font-family: "Cooper Black";
+    margin-top: .8em;
+    margin-bottom: .8em;
+    font-size: 16px;
+}
+.container input[type=text]:focus {
+    outline: none;
+}
+
+img{
+
+    margin-top: 1em;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-family: "cooper Black";
+    border-radius: 10px;
+    position: absolute;
+    right: .2em;
+    bottom: .2em;
+    width: 50px;
+    cursor: pointer;
+}
+
